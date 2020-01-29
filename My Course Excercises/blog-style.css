@@ -1,0 +1,31 @@
+h2 {
+	color: #2c3e50;
+	font-family: Source Sans Pro;
+	font-weight: 700;
+	margin: 20px;
+}
+body {
+	border: 20px solid #bdc3c7;
+	width: 50%;
+	margin-left: 300px;
+}
+p {
+	font-family: Source Sans Pro;
+	font-weight: 400;
+	margin: 20px;
+	/*word-spacing: 1px;*/
+}
+.date {
+	text-transform: uppercase;
+	color: #3498db;
+	margin: 20px;
+	letter-spacing: 2px;
+}
+.bord{
+	border-left: 4px solid #bdc3c7;
+	padding-left: 10px;
+}
+hr {
+	margin-right: 20px;
+	margin-left: 20px;
+}
