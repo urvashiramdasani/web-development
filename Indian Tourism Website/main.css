@@ -15,20 +15,22 @@ h1 {
 }
 
 .nav {
-	height: 15px;
+	height: 30px;
 	padding-bottom: 20px;
 	font-family: montserrat;
 	text-align: center;
 	padding-top: 10px;
+	background-color: cadetblue;
+	border-bottom: 1px solid white;
 }
 
 .btn {
-	background-color: white;
-	color: cadetblue;
+	background-color: cadetblue;
+	color: white;
 	letter-spacing: 1px;
-	border: 1px solid white;
+	border: 1px solid cadetblue;
 	text-align: center;
-	border-radius: 30px;
+	border-radius: 15px;
 	height: 40px;
 	font-size: 20px;
 	margin: auto 50px;
@@ -67,4 +69,83 @@ div p {
 	font-family: lato;
 	border-left-style: 2px solid cadetblue;
 	padding-left: 8px;
+}
+
+.btn:hover {
+	background: white;
+	color: cadetblue;
+	opacity: 0.8;
+}
+
+input {
+	border-radius: 2px;
+	height: 20px;
+	width: 200px;
+}
+
+select {
+	border-radius: 2px;
+	height: 20px;
+	width: 100px;
+	color: grey;
+}
+
+.btn-go {
+	background-color: white;
+	color: cadetblue;
+	letter-spacing: 1px;
+	border: 1px solid white;
+	text-align: center;
+	border-radius: 30px;
+	height: 40px;
+	font-size: 20px;
+	margin: 5px 200px;
+}
+
+.btn-go:hover {
+	background: white;
+	color: cadetblue;
+	opacity: 0.8;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	margin: 1.66%;
+}
+
+.imgs {
+	border-right: 4px solid cadetblue;
+}
+
+.con1 {
+	float: left;
+	width: 200px;
+	padding-left: 30px;
+}
+
+.con2 {
+	float: left;
+	width: 200px;
+	padding-left: 30px;
+}
+
+.con3 {
+	float: left;
+	width: 200px;
+	padding-left: 30px;
+}
+
+.con4 {
+	float: left;
+	width: 200px;
+	padding-left: 30px;
+}
+
+.con5 {
+	float: left;
+	width: 200px;
+	padding-left: 30px;
+	border-right: 4px solid cadetblue;
+	padding-right: 50px;
 }
