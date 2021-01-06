@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border Examples</title>
+	<style>
+		img.mix {
+			border-style: dashed double dotted solid;
+			border-color: grey;
+			border-width: 10px; 
+		}
+		/*.border {
+			border-style: dashed;
+			left: 35px;
+			top: 35px;
+			position: absolute;
+			border-color: grey;
+			border-width: 10px;
+			width: 200px;
+			height: 200px;
+		}
+		.border:after {
+			content: '';
+			position: absolute;
+			left: -6px;
+			left: -6px;
+			border-style: dotted;
+			border-color: grey;
+			border-width: 10px;
+			width: 100%;
+			height: 100%;
+		}*/
+		.border {
+			border: 10px solid transparent;
+			border-image: url(1.png) 30 repeat;
+			width: 200px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<p class="border">Division</p>
+	<!-- <img width="200" height="200" class="mix"> -->
+</body>
+</html>
